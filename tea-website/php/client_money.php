@@ -33,9 +33,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
 
-        // Wyślij dane do bota w Telegram
-        $telegramBotToken = '6955108774:AAHQIyzoY9MIWHxYX1zZqP18cMjz0Adf4J4'; // Zastąp własnym tokenem bota
-        $telegramChatId = '1367404342'; // Zastąp własnym identyfikatorem czatu
+        
+        $telegramBotToken = '';  
+        $telegramChatId = ''; 
         
         $message = "Nowe zamówienie:\nImię: $clientName\nNazwisko: $clientLname\nEmail: $clientEmail\n\nDane koszyka:\n";
         
