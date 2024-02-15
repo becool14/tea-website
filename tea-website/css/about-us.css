@@ -1,0 +1,18 @@
+.about-text {
+}
+
+.about-text p {
+    font-weight: lighter;
+}
+
+.about-text h2 {
+    font-size: 40px;
+}
+
+.about-text img {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+

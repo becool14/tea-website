@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+}
+
+h2, p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #6d6d6d;
+}
+
+
+header .logo {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+header .navigation {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header .navigation a {
+    margin-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+footer {
+    background-color: #f1f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .upper-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .upper-footer .tab {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .upper-footer .tab a {
+    color: #6d6d6d;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 7px;
+}
+
+footer .upper-footer .tab p {
+    color: #6d6d6d;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.wrapper {
+    padding: 0 10%;
+    margin: 0 auto;
+}
+
+.sales-header {
+}
+
+.sales-header h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.sales-header h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #505745;
+    margin: 15px auto 0;
+}
+
+.sales-header p {
+    color: #6d6d6d;
+}
+
+.sales-header h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.sales-header h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #505745;
+    margin: 15px auto 0;
+}
+
+.tea-header {
+    background-image: url("https://www.teasenz.com/media/catalog/category/web_back_copy.jpg");
+    background-size: contain;
+    min-height: 381px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.tea-header h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.tea-header h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #505745;
+    margin: 15px auto 0;
+}
+
+.products-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.products-row .product-item {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    position: relative;
+}
+
+.products-row .product-item:hover {
+    cursor: pointer;
+}
+
+.products-row .product-item .discount{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Condensed";
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.products-row .product-item .button {
+    position: absolute;
+    transition: opacity 0.5s;
+    opacity: 0;
+    right: 20px;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.products-row .product-item .button img {
+    width: 20px;
+    height: 20px;
+}
+
+.products-row .product-item:hover .button {
+    opacity: 1;
+}
+
+.products-row .product-item p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+.products-row .product-item .product-name {
+    font-size: 14px;
+}
+
+.products-row .product-item .product-price {
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+.products-row .product-item .product-price span {
+    text-decoration: line-through;
+}

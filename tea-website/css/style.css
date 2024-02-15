@@ -1,0 +1,263 @@
+
+body {
+    margin: 0;
+}
+
+h2, p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    background-image: url("https://www.teasenz.com/media/easybanner/banner1_teasenz_packaging_900.jpg");
+    background-size: cover;
+    padding-top: 30px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #6d6d6d;
+}
+
+header .logo {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+header .navigation {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header .navigation a {
+    margin-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+.p-block {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.p-block h2 {
+    font-size: 40px;
+}
+
+.p-block p {
+    padding: 0 10%;
+    color: #6d6d6d;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+.block:nth-child(2) img {
+    order: 1;
+}
+
+.block img {
+    max-width: 540px;
+    height: auto;
+}
+
+.block .block-text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block .block-text h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 40px;
+}
+
+.block .block-text h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #505745;
+    margin-top: 16px;
+}
+
+.block .block-text p {
+    font-size: 18px;
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+.block .block-text .button {
+    border: 2px solid #505745;
+    background-color: #505745;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-transform: uppercase;
+    line-height: 17px;
+    font-size: 14px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.text {
+    margin-bottom: 2rem;
+}
+
+.text h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #f1f2f2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer .upper-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .upper-footer .tab {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .upper-footer .tab a {
+    color: #6d6d6d;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 7px;
+}
+
+footer .upper-footer .tab p {
+    color: #6d6d6d;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+
+
+.table-wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #505745;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: #505745;
+    color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#remove-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#remove-btn:hover {
+    background-color: #cc0000;
+}
+
+
+
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-btn {
+    background-color: white; /* Dark green color from your styles */
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+.buy-btn a{
+    text-decoration: none;
+}
+
+.buy-btn:hover {
+    background-color: #ffffff; /* Slightly darker shade for hover effect */
+}
+
+.back-link {
+    display: inline-block;
+    color: green; /* Grey color from your styles */
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.back-link:hover {
+    color: #505745; /* Dark green color for consistency */
+}
+
+.be_good{
+    text-align: center;
+}
